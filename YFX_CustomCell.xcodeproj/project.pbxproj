@@ -15,6 +15,8 @@
 		6AFEB5021DA9DEFE00987753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEB5001DA9DEFE00987753 /* LaunchScreen.storyboard */; };
 		6AFEB50D1DA9DEFE00987753 /* YFX_CustomCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEB50C1DA9DEFE00987753 /* YFX_CustomCellTests.m */; };
 		6AFEB5181DA9DEFE00987753 /* YFX_CustomCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEB5171DA9DEFE00987753 /* YFX_CustomCellUITests.m */; };
+		6AFEB5271DA9E20800987753 /* YFX_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEB5261DA9E20800987753 /* YFX_Model.m */; };
+		6AFEB52A1DA9E2DB00987753 /* YFX_CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEB5291DA9E2DB00987753 /* YFX_CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6AFEB5131DA9DEFE00987753 /* YFX_CustomCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFX_CustomCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFEB5171DA9DEFE00987753 /* YFX_CustomCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFX_CustomCellUITests.m; sourceTree = "<group>"; };
 		6AFEB5191DA9DEFE00987753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFEB5251DA9E20800987753 /* YFX_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFX_Model.h; sourceTree = "<group>"; };
+		6AFEB5261DA9E20800987753 /* YFX_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFX_Model.m; sourceTree = "<group>"; };
+		6AFEB5281DA9E2DB00987753 /* YFX_CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFX_CustomTableViewCell.h; sourceTree = "<group>"; };
+		6AFEB5291DA9E2DB00987753 /* YFX_CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFX_CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				6AFEB4F61DA9DEFE00987753 /* AppDelegate.m */,
 				6AFEB4F81DA9DEFE00987753 /* ViewController.h */,
 				6AFEB4F91DA9DEFE00987753 /* ViewController.m */,
+				6AFEB5251DA9E20800987753 /* YFX_Model.h */,
+				6AFEB5261DA9E20800987753 /* YFX_Model.m */,
+				6AFEB5281DA9E2DB00987753 /* YFX_CustomTableViewCell.h */,
+				6AFEB5291DA9E2DB00987753 /* YFX_CustomTableViewCell.m */,
 				6AFEB4FB1DA9DEFE00987753 /* Main.storyboard */,
 				6AFEB4FE1DA9DEFE00987753 /* Assets.xcassets */,
 				6AFEB5001DA9DEFE00987753 /* LaunchScreen.storyboard */,
@@ -277,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AFEB4FA1DA9DEFE00987753 /* ViewController.m in Sources */,
+				6AFEB52A1DA9E2DB00987753 /* YFX_CustomTableViewCell.m in Sources */,
+				6AFEB5271DA9E20800987753 /* YFX_Model.m in Sources */,
 				6AFEB4F71DA9DEFE00987753 /* AppDelegate.m in Sources */,
 				6AFEB4F41DA9DEFE00987753 /* main.m in Sources */,
 			);
