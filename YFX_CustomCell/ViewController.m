@@ -24,8 +24,12 @@
     if (!_YFX_TableView) {
         
         _YFX_TableView = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
+        
         _YFX_TableView.delegate = self;
+        
         _YFX_TableView.dataSource = self;
+        
+        
     }
     return _YFX_TableView;
 }
@@ -101,6 +105,7 @@
 }
 // 先给cell表格一个预估计高度
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     return 100;
 }
 - (void)didReceiveMemoryWarning {
