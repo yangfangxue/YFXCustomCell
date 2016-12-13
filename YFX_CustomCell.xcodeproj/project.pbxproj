@@ -442,7 +442,7 @@
 				DEVELOPMENT_TEAM = 654YYRTASK;
 				INFOPLIST_FILE = YFX_CustomCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "fangxue.YFX-CustomCell";
+				PRODUCT_BUNDLE_IDENTIFIER = yangfangxue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -454,7 +454,7 @@
 				DEVELOPMENT_TEAM = 654YYRTASK;
 				INFOPLIST_FILE = YFX_CustomCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "fangxue.YFX-CustomCell";
+				PRODUCT_BUNDLE_IDENTIFIER = yangfangxue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -528,6 +528,7 @@
 				6AFEB51E1DA9DEFE00987753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AFEB51F1DA9DEFE00987753 /* Build configuration list for PBXNativeTarget "YFX_CustomCellTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +537,7 @@
 				6AFEB5211DA9DEFE00987753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AFEB5221DA9DEFE00987753 /* Build configuration list for PBXNativeTarget "YFX_CustomCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +546,7 @@
 				6AFEB5241DA9DEFE00987753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

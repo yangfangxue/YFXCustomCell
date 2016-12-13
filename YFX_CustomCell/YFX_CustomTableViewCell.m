@@ -24,10 +24,22 @@
     
     self.iconImageView.image = [UIImage imageNamed:name];
     
+    
     self.nickNameLabel.text = model.nickName;
-     
-    // 设置内容宽度，这里首先在自适应之前需要将内容的宽度固定
+    [self.nickNameLabel sizeToFit];
+    CGRect frame = self.nickNameLabel.frame;
+    frame.size.height = kIconHeight;
+    self.nickNameLabel.frame = frame;
+    
+    //定宽设高
     self.contentLabel.text = model.content;
+    CGRect contentFrame = self.nickNameLabel.frame;
+    contentFrame.size.width = kWidth - kIconWidth - self.nickNameLabel.frame.size.width - 80;
+    self.contentLabel.frame = contentFrame;
+    //根据label里的文字来自动适应尺寸 sizeToFit
+    [self.contentLabel sizeToFit];
+    
+    model.cellHeight = CGRectGetMaxY(self.contentLabel.frame) + 10;
     
 }
 #pragma mark - 布局

@@ -29,11 +29,11 @@
         
         _YFX_TableView.dataSource = self;
         
-        
     }
     return _YFX_TableView;
 }
 - (NSMutableArray *)dataArray{
+    
     if (!_dataArray) {
         
         _dataArray = [NSMutableArray array];
@@ -92,6 +92,7 @@
     
     YFX_CustomTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (cell == nil) {
+        
         cell = [[YFX_CustomTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
     cell.model = self.dataArray[indexPath.row];
